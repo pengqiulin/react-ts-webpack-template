@@ -12,6 +12,7 @@ react-ts-webpack-template
 │ │ └── js # 全局 js
 │ ├── common # 存放项目通用文件
 │ ├── components # 项目中通用的业务组件目录
+│ ├── hooks # 自定义hook
 │ ├── pages # 项目页面目录
     ├── Welcome // 路由组件下不应该再包含其他路由组件，基于这个约定就能清楚的区分路由组件和非路由组件了
 |      ├── components // 对于复杂的页面可以再自己做更深层次的组织，但建议不要超过三层

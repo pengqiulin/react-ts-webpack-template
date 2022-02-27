@@ -21,6 +21,8 @@ module.exports = {
     '@typescript-eslint/semi': [2, 'never'],
     '@typescript-eslint/comma-dangle': 'off',
     '@typescript-eslint/indent': 'off',
+    '@typescript-eslint/no-explicit-any':'off',
+    // '@typescript-eslint/no-unsafe-member-access':'off'
     //'react/jsx-one-expression-per-line': 'off'
   }
 }
